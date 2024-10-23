@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(135deg, #000000, #434343);
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+.weather-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-title {
+  color: #ffffff;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.weather-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.weather-card {
+  background: linear-gradient(145deg, #1a1a1a, #333333);
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.weather-search-form {
+  margin-bottom: 30px;
+}
+
+.weather-search-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+.weather-search-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.weather-search-button:hover {
+  background-color: #5b5b5b;
+}
+
+.last-updated {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.alerts-container {
+  margin-top: 20px;
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
+.chart-container {
+  height: 400px;
+}
+
+.chart {
+  height: 100%;
+}
+
+.chart-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.weather-report-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.weather-report-button:hover {
+  background-color: #5b5b5b;
+}
